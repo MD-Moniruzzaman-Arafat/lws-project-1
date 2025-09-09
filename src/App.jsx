@@ -1,6 +1,7 @@
 import './App.css'
 import CompaniesLogo from './components/companiesLogo/CompaniesLogo'
 import Faq from './components/faq/Faq'
+import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import Pricing from './components/pricing/Pricing'
@@ -21,6 +22,7 @@ function App() {
       <Pricing />
       <Faq />
       <Trial />
+      <Footer />
     </>
   )
 }

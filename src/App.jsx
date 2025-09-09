@@ -7,6 +7,7 @@ import Pricing from './components/pricing/Pricing'
 import ServiceOne from './components/serviceOne/ServiceOne'
 import ServiceTwo from './components/serviceTwo/ServiceTwo'
 import Testimonial from './components/testimonial/Testimonial'
+import Trial from './components/trial/Trial'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Testimonial />
       <Pricing />
       <Faq />
+      <Trial />
     </>
   )
 }
